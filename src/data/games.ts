@@ -144,5 +144,14 @@ export const games: Game[] = [
     image: '/img/ffe44635-b69b-4383-b453-2fbda30c87eb.jpg',
     genre: 'Стратегия',
     discount: 5
+  },
+  {
+    id: 19,
+    title: 'Нейросеть: Пробуждение ИИ',
+    price: 2499,
+    image: '/img/9eebedaa-0e58-493f-983f-03d354273b48.jpg',
+    genre: 'RPG',
+    discount: 20,
+    isNew: true
   }
 ];
