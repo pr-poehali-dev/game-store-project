@@ -144,5 +144,14 @@ export const games: Game[] = [
     image: '/img/7d863ddd-40e2-4383-a167-c65e4c0bf0ad.jpg',
     genre: 'Стратегия',
     discount: 5
+  },
+  {
+    id: 19,
+    title: 'Ведьмак: Дикая Охота',
+    price: 1999,
+    image: '/img/128982d7-d159-402d-8ed2-8474d6140310.jpg',
+    genre: 'RPG',
+    discount: 25,
+    isNew: true
   }
 ];
