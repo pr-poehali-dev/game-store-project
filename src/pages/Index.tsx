@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { HomeTab } from '@/components/tabs/HomeTab';
@@ -13,6 +13,9 @@ import { games } from '@/data/games';
 import { Game } from '@/types/game';
 
 function Index() {
+  useEffect(() => {
+    console.log('Index component mounted');
+  }, []);
   const [activeTab, setActiveTab] = useState('home');
   const [cart, setCart] = useState<Game[]>([]);
   const [selectedGenre, setSelectedGenre] = useState<string | null>(null);
