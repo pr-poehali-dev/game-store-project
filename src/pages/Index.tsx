@@ -15,6 +15,7 @@ import { Game } from '@/types/game';
 function Index() {
   const [activeTab, setActiveTab] = useState('home');
   const [cart, setCart] = useState<Game[]>([]);
+  const [selectedGenre, setSelectedGenre] = useState<string | null>(null);
 
   const addToCart = (game: Game) => {
     setCart([...cart, game]);
@@ -40,7 +41,7 @@ function Index() {
       case 'new':
         return <NewTab games={games} onAddToCart={addToCart} />;
       case 'genres':
-        return <GenresTab />;
+        return <GenresTab games={games} onAddToCart={addToCart} selectedGenre={selectedGenre} onSelectGenre={setSelectedGenre} />;
       case 'sales':
         return <SalesTab games={games} onAddToCart={addToCart} />;
       case 'cart':
