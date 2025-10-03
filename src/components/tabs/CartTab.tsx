@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
 import { Game } from '@/types/game';
+import { useToast } from '@/hooks/use-toast';
 
 interface CartTabProps {
   cart: Game[];
@@ -10,6 +11,19 @@ interface CartTabProps {
 }
 
 export function CartTab({ cart, onRemoveFromCart, getCartTotal }: CartTabProps) {
+  const { toast } = useToast();
+
+  const handleCheckout = () => {
+    if (cart.length === 0) return;
+
+    toast({
+      title: "Заказ оформлен!",
+      description: `Заказ на сумму ${Math.round(getCartTotal())} ₽ успешно оформлен. Игры будут доступны в вашей библиотеке.`,
+      duration: 5000,
+    });
+
+    cart.forEach(game => onRemoveFromCart(game.id));
+  };
   return (
     <div>
       <h2 className="text-4xl font-bold mb-8 glow-purple">Корзина покупок</h2>
@@ -55,7 +69,10 @@ export function CartTab({ cart, onRemoveFromCart, getCartTotal }: CartTabProps) 
               <span className="text-2xl font-bold">Итого:</span>
               <span className="text-3xl font-black text-primary glow-cyan">{Math.round(getCartTotal())} ₽</span>
             </div>
-            <Button className="w-full bg-primary hover:bg-primary/80 text-background font-bold text-lg box-glow-cyan">
+            <Button 
+              className="w-full bg-primary hover:bg-primary/80 text-background font-bold text-lg box-glow-cyan"
+              onClick={handleCheckout}
+            >
               Оформить заказ
             </Button>
           </Card>
