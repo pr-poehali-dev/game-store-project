@@ -3,7 +3,7 @@ import { Game } from '@/types/game';
 export const games: Game[] = [
   {
     id: 1,
-    title: 'Cyber Strike 2077',
+    title: 'Кибер Удар 2077',
     price: 1499,
     image: '/img/1c710f79-93c6-4ff5-8379-615e9537fcd9.jpg',
     genre: 'Шутер',
@@ -12,7 +12,7 @@ export const games: Game[] = [
   },
   {
     id: 2,
-    title: 'Neon Racer Infinity',
+    title: 'Неоновый Гонщик',
     price: 999,
     image: '/img/7d863ddd-40e2-4383-a167-c65e4c0bf0ad.jpg',
     genre: 'Гонки',
@@ -20,7 +20,7 @@ export const games: Game[] = [
   },
   {
     id: 3,
-    title: 'Digital Shadows',
+    title: 'Цифровые Тени',
     price: 1799,
     image: '/img/a57c126e-d08f-4efc-9935-653e9c93952d.jpg',
     genre: 'RPG',
@@ -28,7 +28,7 @@ export const games: Game[] = [
   },
   {
     id: 4,
-    title: 'Matrix Protocol',
+    title: 'Протокол Матрица',
     price: 1299,
     image: '/img/1c710f79-93c6-4ff5-8379-615e9537fcd9.jpg',
     genre: 'Экшен',
@@ -36,14 +36,14 @@ export const games: Game[] = [
   },
   {
     id: 5,
-    title: 'Tech Wars Online',
+    title: 'Технологические Войны',
     price: 899,
     image: '/img/7d863ddd-40e2-4383-a167-c65e4c0bf0ad.jpg',
     genre: 'Мультиплеер'
   },
   {
     id: 6,
-    title: 'Future Combat Elite',
+    title: 'Боевая Элита Будущего',
     price: 1599,
     image: '/img/a57c126e-d08f-4efc-9935-653e9c93952d.jpg',
     genre: 'Стратегия',
@@ -51,7 +51,7 @@ export const games: Game[] = [
   },
   {
     id: 7,
-    title: 'Quantum Breach',
+    title: 'Квантовый Прорыв',
     price: 1899,
     image: '/img/1c710f79-93c6-4ff5-8379-615e9537fcd9.jpg',
     genre: 'Шутер',
@@ -60,7 +60,7 @@ export const games: Game[] = [
   },
   {
     id: 8,
-    title: 'Neon City Chronicles',
+    title: 'Хроники Неонового Города',
     price: 2199,
     image: '/img/a57c126e-d08f-4efc-9935-653e9c93952d.jpg',
     genre: 'RPG',
@@ -68,7 +68,7 @@ export const games: Game[] = [
   },
   {
     id: 9,
-    title: 'Velocity Zero',
+    title: 'Нулевая Скорость',
     price: 1199,
     image: '/img/7d863ddd-40e2-4383-a167-c65e4c0bf0ad.jpg',
     genre: 'Гонки',
@@ -76,7 +76,7 @@ export const games: Game[] = [
   },
   {
     id: 10,
-    title: 'Nexus Defense',
+    title: 'Защита Нексуса',
     price: 1399,
     image: '/img/1c710f79-93c6-4ff5-8379-615e9537fcd9.jpg',
     genre: 'Стратегия',
@@ -84,7 +84,7 @@ export const games: Game[] = [
   },
   {
     id: 11,
-    title: 'Ghost Protocol VR',
+    title: 'Призрачный Протокол VR',
     price: 2499,
     image: '/img/a57c126e-d08f-4efc-9935-653e9c93952d.jpg',
     genre: 'Экшен',
@@ -92,7 +92,7 @@ export const games: Game[] = [
   },
   {
     id: 12,
-    title: 'Arena Masters',
+    title: 'Мастера Арены',
     price: 799,
     image: '/img/7d863ddd-40e2-4383-a167-c65e4c0bf0ad.jpg',
     genre: 'Мультиплеер',
@@ -100,7 +100,7 @@ export const games: Game[] = [
   },
   {
     id: 13,
-    title: 'Dark Void Station',
+    title: 'Станция Тёмная Пустота',
     price: 1699,
     image: '/img/1c710f79-93c6-4ff5-8379-615e9537fcd9.jpg',
     genre: 'Хоррор',
@@ -108,14 +108,14 @@ export const games: Game[] = [
   },
   {
     id: 14,
-    title: 'Mech Commander',
+    title: 'Командир Мехов',
     price: 1599,
     image: '/img/a57c126e-d08f-4efc-9935-653e9c93952d.jpg',
     genre: 'Симулятор'
   },
   {
     id: 15,
-    title: 'Cyberpunk Legends',
+    title: 'Легенды Киберпанка',
     price: 2299,
     image: '/img/7d863ddd-40e2-4383-a167-c65e4c0bf0ad.jpg',
     genre: 'RPG',
@@ -124,14 +124,14 @@ export const games: Game[] = [
   },
   {
     id: 16,
-    title: 'Terminal Velocity',
+    title: 'Предельная Скорость',
     price: 1099,
     image: '/img/1c710f79-93c6-4ff5-8379-615e9537fcd9.jpg',
     genre: 'Гонки'
   },
   {
     id: 17,
-    title: 'Plasma Warfare',
+    title: 'Плазменная Война',
     price: 1399,
     image: '/img/a57c126e-d08f-4efc-9935-653e9c93952d.jpg',
     genre: 'Шутер',
@@ -139,7 +139,7 @@ export const games: Game[] = [
   },
   {
     id: 18,
-    title: 'Empire Builder 3000',
+    title: 'Строитель Империи 3000',
     price: 1799,
     image: '/img/7d863ddd-40e2-4383-a167-c65e4c0bf0ad.jpg',
     genre: 'Стратегия',
