@@ -22,7 +22,7 @@ export const games: Game[] = [
     id: 3,
     title: 'Digital Shadows',
     price: 1799,
-    image: '/img/a57c126e-d08f-4efc-9935-653e9c93952d.jpg',
+    image: '/img/330fad01-fc9e-4f5a-85d7-ab13ec8c8624.jpg',
     genre: 'RPG',
     isNew: true
   },
@@ -38,14 +38,14 @@ export const games: Game[] = [
     id: 5,
     title: 'Tech Wars Online',
     price: 899,
-    image: '/img/7d863ddd-40e2-4383-a167-c65e4c0bf0ad.jpg',
+    image: '/img/181baa3b-7aa4-44aa-a1cd-11382851b869.jpg',
     genre: 'Мультиплеер'
   },
   {
     id: 6,
     title: 'Future Combat Elite',
     price: 1599,
-    image: '/img/a57c126e-d08f-4efc-9935-653e9c93952d.jpg',
+    image: '/img/2b06012d-2cef-4f55-be2a-8482ce7000d7.jpg',
     genre: 'Стратегия',
     isNew: true
   },
@@ -53,7 +53,7 @@ export const games: Game[] = [
     id: 7,
     title: 'Quantum Breach',
     price: 1899,
-    image: '/img/1c710f79-93c6-4ff5-8379-615e9537fcd9.jpg',
+    image: '/img/a57c126e-d08f-4efc-9935-653e9c93952d.jpg',
     genre: 'Шутер',
     discount: 25,
     isNew: true
@@ -62,7 +62,7 @@ export const games: Game[] = [
     id: 8,
     title: 'Neon City Chronicles',
     price: 2199,
-    image: '/img/a57c126e-d08f-4efc-9935-653e9c93952d.jpg',
+    image: '/img/330fad01-fc9e-4f5a-85d7-ab13ec8c8624.jpg',
     genre: 'RPG',
     isNew: true
   },
@@ -78,7 +78,7 @@ export const games: Game[] = [
     id: 10,
     title: 'Nexus Defense',
     price: 1399,
-    image: '/img/1c710f79-93c6-4ff5-8379-615e9537fcd9.jpg',
+    image: '/img/2b06012d-2cef-4f55-be2a-8482ce7000d7.jpg',
     genre: 'Стратегия',
     discount: 10
   },
@@ -86,7 +86,7 @@ export const games: Game[] = [
     id: 11,
     title: 'Ghost Protocol VR',
     price: 2499,
-    image: '/img/a57c126e-d08f-4efc-9935-653e9c93952d.jpg',
+    image: '/img/1c710f79-93c6-4ff5-8379-615e9537fcd9.jpg',
     genre: 'Экшен',
     isNew: true
   },
@@ -94,7 +94,7 @@ export const games: Game[] = [
     id: 12,
     title: 'Arena Masters',
     price: 799,
-    image: '/img/7d863ddd-40e2-4383-a167-c65e4c0bf0ad.jpg',
+    image: '/img/181baa3b-7aa4-44aa-a1cd-11382851b869.jpg',
     genre: 'Мультиплеер',
     discount: 40
   },
@@ -102,7 +102,7 @@ export const games: Game[] = [
     id: 13,
     title: 'Dark Void Station',
     price: 1699,
-    image: '/img/1c710f79-93c6-4ff5-8379-615e9537fcd9.jpg',
+    image: '/img/f8b20b43-d9fb-4c68-acda-3e37a71db836.jpg',
     genre: 'Хоррор',
     discount: 20
   },
@@ -110,14 +110,14 @@ export const games: Game[] = [
     id: 14,
     title: 'Mech Commander',
     price: 1599,
-    image: '/img/a57c126e-d08f-4efc-9935-653e9c93952d.jpg',
+    image: '/img/1850ef38-b69d-4c5a-ac48-1f6992155784.jpg',
     genre: 'Симулятор'
   },
   {
     id: 15,
     title: 'Cyberpunk Legends',
     price: 2299,
-    image: '/img/7d863ddd-40e2-4383-a167-c65e4c0bf0ad.jpg',
+    image: '/img/330fad01-fc9e-4f5a-85d7-ab13ec8c8624.jpg',
     genre: 'RPG',
     discount: 15,
     isNew: true
@@ -126,7 +126,7 @@ export const games: Game[] = [
     id: 16,
     title: 'Terminal Velocity',
     price: 1099,
-    image: '/img/1c710f79-93c6-4ff5-8379-615e9537fcd9.jpg',
+    image: '/img/7d863ddd-40e2-4383-a167-c65e4c0bf0ad.jpg',
     genre: 'Гонки'
   },
   {
@@ -141,7 +141,7 @@ export const games: Game[] = [
     id: 18,
     title: 'Empire Builder 3000',
     price: 1799,
-    image: '/img/7d863ddd-40e2-4383-a167-c65e4c0bf0ad.jpg',
+    image: '/img/2b06012d-2cef-4f55-be2a-8482ce7000d7.jpg',
     genre: 'Стратегия',
     discount: 5
   }
