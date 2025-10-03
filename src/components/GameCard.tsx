@@ -13,10 +13,11 @@ export function GameCard({ game, onAddToCart }: GameCardProps) {
   return (
     <Card className="overflow-hidden bg-card border-primary/30 hover:border-primary transition-all hover:box-glow-cyan group cursor-pointer">
       <div className="relative h-48 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-accent/20 z-10 pointer-events-none" />
         <img 
           src={game.image} 
           alt={game.title}
-          className="w-full h-full object-cover transition-transform group-hover:scale-110"
+          className="w-full h-full object-cover transition-all group-hover:scale-110 group-hover:rotate-2 rounded-t-lg border-b-4 border-primary/50"
         />
         {game.isNew && (
           <Badge className="absolute top-2 right-2 bg-accent text-background font-bold box-glow-purple">
