@@ -56,12 +56,18 @@ function Index() {
   };
 
   return (
-    <div className="min-h-screen bg-background">
-      <Header activeTab={activeTab} cartCount={cart.length} onTabChange={setActiveTab} />
-      <main className="container mx-auto px-4 py-8">
-        {renderContent()}
-      </main>
-      <Footer />
+    <div className="min-h-screen bg-background relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10 pointer-events-none" />
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-[128px] pointer-events-none" />
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-[128px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent/10 rounded-full blur-[150px] pointer-events-none" />
+      <div className="relative z-10">
+        <Header activeTab={activeTab} cartCount={cart.length} onTabChange={setActiveTab} />
+        <main className="container mx-auto px-4 py-8">
+          {renderContent()}
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 }
